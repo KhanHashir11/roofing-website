@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { BeforeAfterSection } from './components/BeforeAfterSection';
 import { ServicesSection } from './components/ServicesSection';
 import { WhyChooseUsSection } from './components/WhyChooseUsSection';
 import { AboutSection } from './components/AboutSection';
@@ -108,6 +109,8 @@ export const App: React.FC = () => {
             onRequestEstimate={() => scrollToSection('estimate')}
             onExploreServices={() => scrollToSection('services')}
           />
+
+          <BeforeAfterSection />
 
           {/* Section 3: Services (All 7 required roofing services) */}
           <ServicesSection

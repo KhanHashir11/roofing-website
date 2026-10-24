@@ -226,12 +226,12 @@ export const Hero: React.FC<HeroProps> = ({ onRequestEstimate, onExploreServices
         </div>
       </div>
 
-      {/* STEP 3 — MAIN ARCHITECTURAL HOUSE IMAGE (transparent PNG / WebP rising from bottom) */}
+      {/* Residential roofing photo rises into the hero from the bottom. */}
       <picture className="hero-house-picture">
-        <source srcSet="/images/hero-building.webp" type="image/webp" />
+        <source srcSet="/images/projects/architectural-shingle.webp" type="image/webp" />
         <img
-          src="https://cdn.sceneai.art/Bg%20images/1dd58514-cedb-4f70-9aee-709c3f887808.png"
-          alt="Contemporary multi-level residential and commercial-grade architectural roof structure"
+          src="/images/projects/architectural-shingle.jpg"
+          alt="Residential home with a newly installed architectural shingle roof"
           className="hero-house-img"
           decoding="async"
         />
